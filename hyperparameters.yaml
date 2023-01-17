@@ -1,0 +1,14 @@
+dataset_path : dataset
+train_valid_test_split : [80, 10, 10]
+sampling_rate : 16000
+n_mfcc : 39
+n_label : 10
+labels : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+n_lstm : 1
+h : 50
+d : 50
+batch_size : 64
+learning_rate : 0.002
+epochs : 15
+model_path : saved_model
+
